@@ -1,6 +1,0 @@
----
-tasks:
-- name: Check Httpd service
-yum:
-name: httpd
-state: present
