@@ -1,7 +1,6 @@
 ---
 - hosts: all
   tasks:
-- name: Check Httpd service
-  yum: name=httpd state=present
-- name: Install ntp
-  yum: name=ntp state=present
+- yum:
+    name: "httpd"
+    state: present
