@@ -3,5 +3,5 @@
 tasks:
 -name: Check Httpd service
 -yum:
-     name=httpd
-     state=installed
+     "name=httpd
+     state=installed"
