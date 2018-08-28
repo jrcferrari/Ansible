@@ -1,4 +1,5 @@
 ---
+- hosts: Centos
 tasks:
 - name: Check Httpd service
 yum:
