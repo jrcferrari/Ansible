@@ -1,5 +1,5 @@
-- name: Install Packages
-  apt: name={{ item }} state=latest
-  with_items:
-     - vim
-     - aptitude
+- name: Instala Apache
+  apt: name=apache2 state=latest
+  handlers:
+    - name: Verifica Apache inicializado
+      service: name=apache2 state=started
