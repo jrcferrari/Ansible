@@ -2,6 +2,7 @@
 - hosts: all
   roles:
     - Apache
+<<<<<<< HEAD
   #  - acesso_remoto
   #  - fonte_garamound
 #    - role: geerlingguy.ntp
@@ -10,3 +11,5 @@
   #    ntp_servers:
   #      - "pool.ntp.br iburst"
   #      - "ntp.cais.rnp.br iburst"
+=======
+>>>>>>> b4ca12cf21975dbcb3162fac08169025b3d631fd
