@@ -1,7 +1,7 @@
-- name: Install Packages
+- name: Instala Pacotes
   apt: name={{ item }} state=latest
   with_items:
      - vim
      - aptitude
-- name: update apt cache
+- name: Update apt cache
   apt: update_cache=yes cache_valid_time=86400
