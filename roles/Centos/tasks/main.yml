@@ -6,6 +6,7 @@
   with_items:
    - wget
    - tree
+   - python
 #   - httpd
 #   - php
 #   - php-mysql

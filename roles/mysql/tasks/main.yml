@@ -1,0 +1,3 @@
+    ---
+    - name: Verifica Mysql
+      service: name=mysql state=started
