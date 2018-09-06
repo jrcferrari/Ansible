@@ -6,7 +6,3 @@
     - name: Update apt cache
       apt: update_cache=yes cache_valid_time=86400
       when: ansible_os_family == 'Debian'
-  roles:
-   - Centos
-  tasks:
-  when: ansible_os_family == 'RedHat'
