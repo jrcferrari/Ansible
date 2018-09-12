@@ -1,2 +1,2 @@
   - name: Verifica Mysql
-      service: name=mysql state=started
+    service: name=mysql state=started
