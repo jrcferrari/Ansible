@@ -2,12 +2,12 @@
 
 VERSION='20171109006' 
 
-#if [ -f "/etc/samba.patch.version" ]; then
-#	if [ "$(cat /etc/samba.patch.version)" = "$VERSION" ]; then
-#		echo "ERROR: Changes have been applied!"
-#		exit 2
-#	fi
-#fi
+if [ -f "/etc/samba.patch.version" ]; then
+	if [ "$(cat /etc/samba.patch.version)" = "$VERSION" ]; then
+		echo "ERROR: Changes have been applied!"
+		exit 2
+	fi
+fi
 
 # Verifica versao pfSense
 #if [ "$(cat /etc/version)" != "2.3.4-RELEASE" ]; then
