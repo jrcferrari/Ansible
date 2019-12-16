@@ -2,7 +2,7 @@
   apt: name={{ item }} state=latest
   with_items:
      - vim
-     - aptitude
+     #- aptitude
      - tree
      - python
      - ssh
